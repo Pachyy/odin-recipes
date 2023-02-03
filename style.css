@@ -1,0 +1,32 @@
+body {
+    background: papayawhip;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: min-content;
+    grid-template-areas: 
+    "title title"
+    "image ingridients"
+    "image steps"
+    "image link";
+}
+img {
+    grid-area: image;
+    height: auto;
+    width: 500px;
+    border: 2px solid black;
+    margin: 0px 0px 0px 120px;
+}
+h1 {
+    grid-area: title;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+.link {
+    grid-area: link;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 60px 0px 0px 0px;
+}
