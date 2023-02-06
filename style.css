@@ -10,14 +10,7 @@
     "title title"
     "image link";
 }
-.frontpage {
-    grid-area: image;
-    height: auto;
-    width: 450px;
-    border: 2px solid black;
-}
 .link {
-    grid-area: link;
     text-align: justify;
     font-size: 24px;
     font-weight: 800;
